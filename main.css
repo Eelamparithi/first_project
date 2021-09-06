@@ -1238,7 +1238,7 @@ top: 72px;
 }
 .team1_name,.team2_name,.team3_name,.team4_name,.team5_name{
     position: absolute;
-    width: 120px;
+    width: 148px;
     height: 20px;
     left: 44px;
     top: -10px;
@@ -2049,7 +2049,7 @@ top: 73px;
     position: absolute;
     width: 78px;
     height: 17px;
-    left: 140px;
+    left: 130px;
     top: 49px;
     
     /* Body */
