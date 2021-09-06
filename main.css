@@ -513,6 +513,7 @@ color:rgba(185, 185, 185, 1) ;
     border: 0.5px solid #000000;
     box-sizing: border-box;
     border-radius: 3px;
+    opacity:0.4;
 }
 .remainder_btn_cntnt{
     position: absolute;
@@ -738,6 +739,7 @@ color: #252733;
     
     border: 1px solid #DFE0EB;
     transform: rotate(90deg);
+    background: #E5E5E5;
     }
 .user_details{
     position: absolute;
