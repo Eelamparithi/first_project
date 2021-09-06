@@ -1375,8 +1375,8 @@ top: 320px;
     position: absolute;
     width: 1128px;
     height: 48px;
-    left: -2px;
-    top: 7.5px;
+    left: 0px;
+    top: 0px;
     
     background: #FFFFFF;
     border: 1px solid #E3E7EE;
@@ -1491,7 +1491,7 @@ color: #252733;
     width: 1017px;
     height: 40px;
     left: 28px;
-    top: 83.5px;
+    top: 76px;
 
 }
 .users_pg_profile{
@@ -1609,7 +1609,7 @@ color: #1BBC9D;
     width: 1017px;
     height: 40px;
     left: 28px;
-    top: 139.5px;
+    top: 132px;
 
 }
 .table_content_3{
@@ -1617,7 +1617,7 @@ color: #1BBC9D;
     width: 1017px;
     height: 40px;
     left: 28px;
-    top: 195.5px;
+    top: 188px;
 
 }
 .table_content_4{
@@ -1625,7 +1625,7 @@ color: #1BBC9D;
     width: 1017px;
     height: 40px;
     left: 28px;
-    top: 251.5px;
+    top: 244px;
 
 }
 .table_content_5{
@@ -1633,7 +1633,7 @@ color: #1BBC9D;
     width: 1017px;
     height: 40px;
     left: 28px;
-    top: 307.5px;
+    top: 300px;
 
 }
 .table_content_6{
@@ -1641,7 +1641,7 @@ color: #1BBC9D;
     width: 1017px;
     height: 40px;
     left: 28px;
-    top: 363.5px;
+    top: 356px;
 
 }
 .table_content_7{
@@ -1649,7 +1649,7 @@ color: #1BBC9D;
     width: 1017px;
     height: 40px;
     left: 28px;
-    top: 419.5px;
+    top: 412px;
 
 }
 .table_content_8{
@@ -1657,7 +1657,7 @@ color: #1BBC9D;
     width: 1017px;
     height: 40px;
     left: 28px;
-    top: 475.5px;
+    top: 468px;
   
 }
 .table_content_9{
@@ -1665,7 +1665,7 @@ color: #1BBC9D;
     width: 1017px;
     height: 40px;
     left: 28px;
-    top: 531.5px;
+    top: 524px;
     
 }
 
