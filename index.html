@@ -1,0 +1,526 @@
+<html>
+    <head>
+        <title>Dashboard</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+        alert ("uydyghccj. :)");</script>
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @media screen and (max-width: 1440px){
+                .magnet{
+                    width: 195px;
+                    height: 934px;
+                    position: fixed;
+                    
+                }
+                .magnet_top{
+                    width: 195px;
+                }
+                .magnet_top p{
+                    left: 10px;
+                }
+                .magnet_bottom{
+                    width: 195px;
+                }
+
+                .hilighter_field{
+                    width: 195px;
+                }
+                .content_image{
+                    width: 18px;
+                    height: 18px;
+                }
+                .content{
+                    font-size: 15px;
+                    left: 80px;
+                    top: 7px;
+                }
+
+
+
+
+                .dashboard{
+                    left: -30px;
+                    width: 1120px;
+                }
+                .search_img{
+                    left:889px ;
+                }
+                .seperator{
+                    left: 919px;
+                }
+                .user_details{
+                    left: 939px;
+                }
+                .user_id{
+                    left: 10px;
+                }
+
+
+
+                .users{
+                    left: -30px;;
+                    height: 156px;
+                }
+                .active_users{
+                    width: 171px;
+                    height: 156px;
+                }
+                .inactive_users{
+                    width: 171px;
+                    height: 156px;
+                    left: 242px;
+                }
+                .invited_users{
+                    width: 171px;
+                    height: 156px;
+                    left: 483px;
+                }
+                .non-invited_users{
+                    width: 171px;
+                    height: 156px;
+                    left: 725px;
+                }
+                .user_type{
+                    font-size: 15px;
+                }
+                .user_number{
+                    font-size: 42px;
+                    left: 10px;
+                }
+
+
+
+
+                .groups{
+                    left: -30px;
+                    top: 287px;
+                    height: 207px;
+                }
+                .grps_content{
+                    top: 26px;
+                    height: 181px;
+                }
+                .grps_active_grps{
+                    top: 44px;
+                }
+                .grps_inactive_grps{
+                    top: 44px;
+                }
+                .for_chart{
+                    top: 0px;
+                }
+                .for_active{
+                    top: 60px;
+                    left: 757px;
+                }
+                .for_inactive{
+                    top: 90px;
+                    left: 757px;
+                }
+                .active_passage{
+                    top: 45px;
+                    left: 777px;
+                }
+                .inactive_passage{
+                    top: 75px;
+                    left: 777px;
+                }
+                .active_grps_nums{
+                    font-size: 42px;
+                }
+                .active_grps_name{
+                    font-size: 15px;
+                }
+                .iactive_grps_nums{
+                    font-size: 42px;
+                }
+                .inactive_grps_name{
+                    font-size: 15px;
+                }
+
+
+
+
+
+
+
+                .user_name{
+                    left: -30px;
+                    top: 535px;
+                    width: 423px;
+                }
+                .user_heading{
+                    font-size: 18px;
+                    left: 26px;
+                }
+                .user1_profile,.user2_profile,.user3_profile,.user4_profile,.user5_profile{
+                    width: 30px;
+                    height: 30px;
+                    top: 6px;
+                    left: 5px;
+                }
+                .user1_name,.user2_name,.user3_name,.user4_name,.user5_name{
+                    font-size: 14px;                   
+                }
+                .user1_mail,.user2_mail,.user3_mail,.user4_mail,.user5_mail{
+                    font-size: 12px;
+                }
+
+
+
+
+                .user_teams{
+                    left: 443px;
+                    top: 535px;
+                    width: 423px;
+                }
+                .user_team_heading{
+                    font-size: 18px;
+                    left: 26px
+                }
+                .team1_profile,.team2_profile,.team3_profile,.team4_profile,.team5_profile{
+                    width: 30px;
+                    height: 30px;
+                    top: 6px;
+                    left: 5px;
+                }
+                .team1_name,.team2_name,.team3_name,.team4_name,.team5_name{
+                    font-size: 14px;
+                }
+                .team1_mail,.team2_mail,.team3_mail,.team4_mail,.team5_mail{
+                    font-size: 12px;
+                }
+
+
+
+
+                .launcher{
+                    left: 896px;
+                    height: 393px;
+                    width: 193px;
+                }
+                .launcher_bground{
+                    height: 393px; 
+                    width: 192px;                
+                }
+                .launcher_top_content{
+                    top: 11px;
+                    left: 30px;
+                }
+                .launcher_img{
+                    top: 117px;
+                    width: 166.6px;
+                    height: 138px;
+                    left: 3px;
+                }
+                .launcher_mid_content{
+                    top: 279px;
+                }
+                .launcher_bottom_content{
+                    top: 374px;
+                    left: 70px;
+                }
+                .launcher_top_cntnt{
+                    font-size: 16px;
+                }
+                .launcher_mid_cntnt1{
+                    font-size: 14px;
+                }
+                .launcher_mid_cntnt2{
+                    font-size: 10px;
+                    left: 9px;
+                }
+
+
+
+
+
+
+
+
+
+
+                .calender{
+                    left: 886px;
+                    top: 535px;
+                }
+                .calender_heading_cntnt_right{
+                    font-size: 17px;
+                }
+                .calender_today_heading2_cntnt{
+                    font-size: 14px;
+                }
+                .remainder_btn_cntnt{
+                    font-size: 9px;
+                }
+                .calender_remainder_img{
+                    font-size: 11px;
+                }
+                .calender_remainder_time{
+                    font-size: 10px;
+                }
+
+
+
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            alert("It is desktop responsive :)");
+        </script>
+        <div class="magnet">
+        <div class="magnet_top">
+            <a href="index.html"<p class="magnet_top_content">Magnet tech</p></a>
+        </div>
+        <div class="magnet_bottom">
+            <div class="dsboard_main">
+                
+                <div class="hilighter_field">
+                    <a href="index.html"> <img src="mg_tech_img1.svg" class="content_image">
+                    <h3 class="content">Dashboard</h3>
+                    </a>
+                </div>
+                <div class="hilighter"></div>
+            </div>
+            <div class="users_dashboard">
+                <div  class="no_hilighter_field">
+                    <a href="user.html"><img src="mg_tech_img2.svg" class="content_image">
+                    <h3 class="content">Users</h3>
+                    </a>
+                </div>
+                <div  class="no_hilighter"></div>
+            </div>
+            <div class="notification">
+                <div  class="no_hilighter_field">
+                    <a href="notification.html"><img src="mg_tech_img3.svg" class="content_image">
+                    <h3 class="content">Notifcations</h3>
+                    </a>
+                </div>
+                <div  class="no_hilighter"></div>
+            </div>
+            <div class="settings">
+                <div  class="no_hilighter_field">
+                    <a href="settings.html"><img src="mg_tech_img4.svg" class="content_image">
+                    <h3 class="content">Settings</h3>
+                    </a>
+                </div>
+                <div  class="no_hilighter"></div>
+            </div>
+        </div>
+    </div>
+        <div class="for_bgground">
+            <div class="dashboard">
+                <p class="dashboard_name">Dashboard</p>
+                <img src="search.svg" class="search_img">
+                <div class="seperator"></div>
+                <div class="user_details">
+                    <p class="user_id">Akila Suvekkar</p>
+                    <img src="dsboard _profile_img.svg" class="user_profile">
+                </div>
+            </div>
+            <div class="users">
+                <div class="active_users">
+                    <div class="active_users_position">
+                        <h4 class="user_type">Active users</h4>
+                        <h2 class="user_number">124</h2>
+                    </div>
+                </div>
+                <div class="inactive_users">
+                    <div class="inactive_users_position">
+                        <h4 class="user_type">Inactive users</h4>
+                        <h2 class="user_number">19</h2>
+                    </div>
+                
+                </div>
+                <div class="invited_users">
+                    <div class="invited_users_position">
+                        <h4 class="user_type">Invited users</h4>
+                        <h2 class="user_number">119</h2>
+                    </div>
+                    </div>
+                <div class="non-invited_users">
+                    <div class="non-invited_users_position">
+                        <h4 class="user_type">Non-Invited users</h4>
+                        <h2 class="user_number">24</h2>
+                    </div>
+                    </div>
+            </div>
+            <div class="groups">
+                <div class="grps_heading">
+                    <p class="grps_heading_topic_left">Groups</p>
+                    <p class="grps_heading_topic_right">View All Groups</p>
+                </div>
+                <div class="grps_content">
+                    <div class="grps_active_grps">
+                        <h2 class="active_grps_nums">342</h2>
+                        <h2 class="active_grps_name">Active Groups</h2>
+                    </div>
+                    <div class="grps_inactive_grps">
+                        <h2 class="inactive_grps_nums">120</h2>
+                        <h2 class="inactive_grps_name">InActive Groups</h2>
+                    </div>
+                    <div class="for_chart">
+                        <canvas id="myChart" style="height: 75%;width: 100%;"></canvas>
+                            <script>
+                                var xValues = [];
+                                var yValues = [40,60];
+                                var barColors = [
+                                "#2D4F7C",
+                                "#718FB7"
+                                                 ];
+        
+                                new Chart("myChart", 
+                                        {
+                                            type: "doughnut",
+                                            data: {
+                                            labels: xValues,
+                                            datasets: [{
+                                            backgroundColor: barColors,
+                                            data: yValues
+                                                        }]
+                                                    },
+        
+                                        });
+                            </script>
+                            <h2 class="for_active_percent">60% Active</h2>
+                    </div>
+                    <div class="for_active"></div>
+                    <p class="active_passage">Active</p>
+                    <div class="for_inactive"></div>
+                    <p class="inactive_passage">Inactive</p>
+                </div>
+            </div>
+            <div class="user_name">
+                <p class="user_heading">Most Active Users</p>
+                <div  class="user1">
+                    <img src="profile1.svg" class="user1_profile">
+                    <p class="user1_name">Kishor Sharma</p>
+                    <p class="user1_mail">Kishor.sharma@magnet.corp</p>
+                </div>
+                <div  class="user2">
+                    <img src="profile2.svg" class="user2_profile">
+                    <p class="user2_name">Leena Agalya</p>
+                    <p class="user2_mail">Leena.ag@magnet.corp</p>
+                </div>
+                <div  class="user3">
+                    <img src="profile3.svg" class="user3_profile">
+                    <p class="user3_name">Vinithkumar</p>
+                    <p class="user3_mail">vini96@magnet.corp</p>
+                </div>
+                <div  class="user4">
+                    <img src="profile4.svg" class="user4_profile">
+                    <p class="user4_name">Leena Agalya</p>
+                    <p class="user4_mail">Leena.ag@magnet.corp</p>
+                </div>
+                <div  class="user5">
+                    <img src="profile5.svg" class="user5_profile">
+                    <p class="user5_name">Vinithkumar</p>
+                    <p class="user5_mail">vini96@magnet.corp</p>
+                </div>
+            </div>
+            <div class="user_teams">
+                <p class="user_team_heading">Most Active Groups</p>
+                <div  class="team1">
+                    <img src="profile1.svg" class="team1_profile">
+                    <p class="team1_name">Kishor Sharma</p>
+                    <p class="team1_mail">Kishor.sharma@magnet.corp</p>
+                </div>
+                <div  class="team2">
+                    <img src="profile2.svg" class="team2_profile">
+                    <p class="team2_name">Leena Agalya</p>
+                    <p class="team2_mail">Leena.ag@magnet.corp</p>
+                </div>
+                <div  class="team3">
+                    <img src="profile3.svg" class="team3_profile">
+                    <p class="team3_name">Vinithkumar</p>
+                    <p class="team3_mail">vini96@magnet.corp</p>
+                </div>
+                <div  class="team4">
+                    <img src="profile4.svg" class="team4_profile">
+                    <p class="team4_name">Leena Agalya</p>
+                    <p class="team4_mail">Leena.ag@magnet.corp</p>
+                </div>
+                <div  class="team5">
+                    <img src="profile5.svg" class="team5_profile">
+                    <p class="team5_name">Vinithkumar</p>
+                    <p class="team5_mail">vini96@magnet.corp</p>
+                </div>
+            </div> 
+            <div class="launcher">
+                <img src="Group.jpg" class="launcher_bground">
+                <div class="launcher_top_content">
+                    <p class="launcher_top_cntnt">Launching<br/> all new<br/> E-Commerce <br/>Platform </p>
+                </div>
+                <div class="launcher_img">
+                    <img src="launcher_img.svg">
+                </div>
+                <div class="launcher_mid_content">
+                    <div class="launcher_mid_content1">
+                        <p class="launcher_mid_cntnt1">Technology that grows with your online business</p>
+                    </div>
+                    <div class="launcher_mid_content2">
+                        <p class="launcher_mid_cntnt2">Request a Demo</p>
+                    </div>
+                </div>
+                <div class="launcher_bottom_content">
+                    <div class="pg_slider1"></div>
+                    <div class="pg_slider2"></div>
+                    <div class="pg_slider3"></div>
+                    <div class="pg_slider4"></div>
+                </div>
+            </div>
+            <div class="calender">
+                <div class="calender_heading">
+                    <h3 class="calender_heading_cntnt_right">Calander</h3>
+                    <img src="calendar.svg" class="calender_heading_cntnt_left">
+                </div>
+                <div class="calender_today_heading">
+                    <div class="calender_today_heading1">
+                        <p class="calender_today_heading1_cntnt">&or;</p>
+                    </div>
+                    <div class="calender_today_heading2">
+                        <p class="calender_today_heading2_cntnt">Today</p>
+                    </div>
+                    <div class="calender_today_heading3">
+                        <p class="calender_today_heading3_cntnt">&and;</p>
+                    </div>
+                </div>
+                <div class="calender_remainder">
+                    <div class="add_event_btn">
+                        <input type="button" class="remainder_btn">
+                        <p class="remainder_btn_cntnt">+ Add an event or task</p>
+                    </div>
+                    <div class="calender_remainder1">
+                        <div class="calender_remainder_name">
+                            <h2 class="calender_remainder_name_data">Update Admin Design</h2>
+                        </div>
+                        <div class="calender_remainder_imgandtime">
+                            <img src="clock_calander.svg" class="calender_remainder_img">
+                            <h2 class="calender_remainder_time">10:00 am</h2>
+                        </div>
+                    </div>
+                    <div class="calender_remainder2">
+                        <div class="calender_remainder_name">
+                            <h2 class="calender_remainder_name_data">Write a relese note</h2>
+                        </div>
+                        <div class="calender_remainder_imgandtime">
+                            <img src="clock_calander.svg" class="calender_remainder_img">
+                            <h2 class="calender_remainder_time">12:00 pm</h2>
+                        </div>
+                    </div>
+                    <div class="calender_remainder3">
+                        <div class="calender_remainder_name">
+                            <h2 class="calender_remainder_name_data">Sales team meeting</h2>
+                        </div>
+                        <div class="calender_remainder_imgandtime">
+                            <img src="clock_calander.svg" class="calender_remainder_img">
+                            <h2 class="calender_remainder_time">10:00 am</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
